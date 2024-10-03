@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
+const strings = [
+  'Front End Developer',
+  'Mobile App Developer',
+  'ReactJS',
+  'Figma Designer',
+];
+
 const Typewriter = () => {
-  const strings = [
-    'Front End Developer',
-    'Mobile App Developer',
-    'ReactJS',
-    'Figma Designer',
-  ];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
   const [currentString, setCurrentString] = useState('');
   const [isTyping, setIsTyping] = useState(true);

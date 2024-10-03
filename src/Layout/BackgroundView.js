@@ -25,7 +25,7 @@ function BackgroundView({ children }) {
 
                         modes: {
                             push: {
-                                quantity: 5
+                                quantity: 4
                             },
                             repulse: {
                                 distance: 200,

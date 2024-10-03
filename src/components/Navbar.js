@@ -43,20 +43,32 @@ function Navbar() {
                 {!showMenu && (
                     <ul className="hidden tm:block sm:block md:flex font-[400] text-black dark:text-white dark:font-[300] text-custom-20 gap-[5rem] md:gap-[3rem] lg:gap-4rem">
                         <a
+                            href="#experience"
                             className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
-                            onClick={() => scrollToComponent('experience')}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToComponent('experience');
+                            }}
                         >
                             Experience
                         </a>
                         <a
+                            href="#projects"
                             className="tracking-wide hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
-                            onClick={() => scrollToComponent('projects')}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToComponent('projects');
+                            }}
                         >
                             Projects
                         </a>
                         <a
+                            href="#contact"
                             className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
-                            onClick={() => scrollToComponent('contact')}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToComponent('contact');
+                            }}
                         >
                             Contact
                         </a>
@@ -72,20 +84,32 @@ function Navbar() {
                     {showMenu && (
                         <ul className="flex flex-col font-[400] text-black dark:font-[300] text-custom-20 gap-[2rem] md:gap-[3rem] lg:gap-2rem absolute top-[4.5rem] right-[3.5rem] z-10 bg-[#fdd6cf] p-4 shadow-md rounded">
                             <a
+                                href="#experience"
                                 className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
-                                onClick={() => scrollToComponent('experience')}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    scrollToComponent('experience');
+                                }}
                             >
                                 Experience
                             </a>
                             <a
+                                href="#projects"
                                 className="tracking-wide hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
-                                onClick={() => scrollToComponent('projects')}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    scrollToComponent('projects');
+                                }}
                             >
                                 Projects
                             </a>
                             <a
+                                href="#contact"
                                 className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
-                                onClick={() => scrollToComponent('contact')}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    scrollToComponent('contact');
+                                }}
                             >
                                 Contact
                             </a>
