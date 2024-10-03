@@ -1,4 +1,4 @@
-# Perosnal portfolio website [ ReactJS and Tailwind css]
+# Personal portfolio website [ ReactJS and Tailwind css]
 
 This README file provides an overview of my portfolio project built with ReactJS and Tailwind CSS. It includes information about the project, installation instructions, and details about the libraries used.
 
