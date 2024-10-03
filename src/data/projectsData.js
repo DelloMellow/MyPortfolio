@@ -1,7 +1,7 @@
-import DelloPort from "./../assets/portfolioImages/delloport.png"
-import SmartCut from "./../assets/portfolioImages/smartcut.png"
-import GitHubUser from "./../assets/portfolioImages/githubuser.png"
-import UserStory from "./../assets/portfolioImages/userstory.png"
+import DelloPort from "./../assets/portfolioImages/delloport.png";
+import SmartCut from "./../assets/portfolioImages/smartcut.png";
+import GitHubUser from "./../assets/portfolioImages/githubuser.png";
+import UserStory from "./../assets/portfolioImages/userstory.png";
 
 const ProjectsData = [
   {
@@ -34,7 +34,6 @@ const ProjectsData = [
     description:
       "The first mobile application I created while participating in Bangkit Academy, using Kotlin and a RESTful API. This app will display GitHub user data, such as their followers and those they follow.",
   },
-
   {
     id: "userstory",
     img: UserStory,
@@ -43,10 +42,8 @@ const ProjectsData = [
     live: "https://github.com/DelloMellow/UserStory",
     source: "https://github.com/DelloMellow/UserStory",
     description:
-      "The application that i developed using Kotlin and a RESTful API, displays stories captured from users through the phone camera, along with their location.",
-
+      "The application that I developed using Kotlin and a RESTful API, displays stories captured from users through the phone camera, along with their location.",
   },
-
 ];
 
-export default { ProjectsData };
+export default {ProjectsData};
