@@ -4,13 +4,13 @@ This README file provides an overview of my portfolio project built with ReactJS
 
 ## Online Link
 
-An online version of the portfolio project is available at https://rimshadev-portfolio.vercel.app/. You can visit that link to see the project in action and explore its features. Also visit the owner's GitHub, Rimsha at https://github.com/rimshub. Because i use that project as my reference.
+An online version of the portfolio project is available at https://dellomellow.github.io/MyPortfolio/. You can visit that link to see the project in action and explore its features. Also visit the owner's GitHub, Rimsha at https://github.com/rimshub because I use that project as my reference.
 
 ## Project Overview
 
 This portfolio project is a responsive web application built using ReactJS and Tailwind CSS. It showcases my skills, projects, and accomplishments, providing a visually appealing and user-friendly interface for visitors to explore the work.
 
-The project incorporates various features and components to enhance the user experience, including background effects, icons, email functionality, and typed animations. The ReactJS framework allows for efficient component-based development, while Tailwind CSS provides a utility-first approach to styling.
+The project incorporates various features and components to enhance the user experience, including background effects, icons, email functionality and typed animations. The ReactJS framework allows for efficient component-based development, while Tailwind CSS provides a utility-first approach to styling.
 
 ## Installation
 
@@ -48,7 +48,7 @@ The following libraries were used in the development of this project:
 
 ## Contributing
 
-Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request. Alternatively, you can open an issue to report any problems or provide feedback. 
+Contributions to this project are welcome! Please submit a pull request if you have any suggestions, improvements, or bug fixes. If not, you can open an issue to report any problems or provide feedback. 
 
 ## License
 
